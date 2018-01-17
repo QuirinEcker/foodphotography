@@ -34,10 +34,13 @@ a:link {
 	color: white;
 	width: 150px;
 	display: inline-block;
+	text-decoration: none;
 }
 
 a:hover {
 	background-color: #313131;
+	width: 150px;
+	height: 100%;
 }
 
 #banner img {
@@ -81,4 +84,26 @@ body{
 	line-height: 70px;
 	font-size: 80%;
 	color: #A19FA0;
+}
+
+a.moreInformation:link{
+	background-color: #414240;
+	width: 250px;
+	padding: 1px 5px;
+	text-align: center;
+	text-transform: uppercase;
+	text-decoration: none;
+	border: 2px solid #414240;
+	border-radius: 3px;
+}
+
+article.underscore {
+	padding-bottom: 5px;
+	margin-bottom: 50px;
+	border-bottom: 2px solid black
+}
+
+article {
+	padding-bottom: 5px;
+	margin-bottom: 50px;
 }
